@@ -40,3 +40,17 @@ favicon: /favicon.png
 # Google Analytics Tracking ID
 google_analytics:
 
+# gitalk comment
+gitalk:
+  enable: true
+  ClientID:  # GitHub Application Client ID
+  ClientSecret:  # GitHub Application Client Secret
+  repo:  # GitHub repo for creating issues
+  owner:  # GitHub repo owner
+  adminUser:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  ID: location.pathname
+  labels: gitalk
+  perPage: 15
+  pagerDirection: last
+  createIssueManually: true
+  distractionFreeMode: false
